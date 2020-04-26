@@ -3,7 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rbroc.github.io/cv/cv/</loc>
+    <loc>https://rbroc.github.io/cv/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -12,10 +13,6 @@
   
   <url>
     <loc>https://rbroc.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rbroc.github.io/cv/</loc>
   </url>
   
   <url>
