@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Roberta Rocca
 description: Postdoctoral researchers, Psychoinformatics Lab, University of Texas at Austin
-avatar: "/profile.jpg"
+logo: "/profile.jpg"
 round-avatar: true
 social-network-links:
   email: "rbrrcc@gmail.com"
