@@ -8,3 +8,6 @@ social-network-links:
   github: rbroc
   twitter: RockBerta
   rss: true
+share-links-active:
+  twitter: true
+  github: true
