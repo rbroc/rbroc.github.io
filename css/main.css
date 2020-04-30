@@ -45,9 +45,8 @@ img {
 /* Profile picture */
 
 .profile {
-    width: 40vh;
+    width: 42vh;
     height: 40vh;
-    border-radius: 50%;
     border: 3px solid black;
 }
 
