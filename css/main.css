@@ -45,10 +45,10 @@ img {
 /* Profile picture */
 
 .profile {
-    width: 43vh;
-    height: 40vh;
+    width: 31vh;
+    height: 30vh;
     border-radius: 50%;
-    border: 2px solid lightgrey;
+    border: 3px solid lightgrey;
 }
 
 /* Colored links */
