@@ -11,7 +11,7 @@ body {
 
 main {
     margin: auto;
-    padding: 20px;
+    padding: 25px;
     flex: 1 0 auto;
     max-width: 750px;
 }
@@ -23,17 +23,17 @@ img {
 /* Homepage */
 
 .intro {
-    transform: translateY(15vh);
+    transform: translateY(22vh);
 }
 
 .intro > h1 {
-    color: #A52A2A;
-    font-size: 6vh;
+    color: #212121;
+    font-size: 12vh;
 }
 
 .intro > h2 {
     color: #757575;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 
 /* Page content */
@@ -45,10 +45,9 @@ img {
 /* Profile picture */
 
 .profile {
-    width: 32vh;
-    height: 30vh;
+    width: 10vh;
+    height: 10vh;
     border-radius: 50%;
-    border: 3px solid lightgrey;
 }
 
 /* Colored links */
@@ -68,17 +67,17 @@ a:hover {
 /* Copyright message */
 
 .copyright {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 /* Paginator */
 
 .pages {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .pages-icon {
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 /* List item for posts/projects */
@@ -107,4 +106,3 @@ a:hover {
 footer {
     border-bottom: var(--border-width) solid var(--accent);
 }
-
