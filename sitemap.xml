@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rbroc.github.io/projects/project1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project4/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/agent-based-modeling/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/applied-nlp/</loc>
   </url>
   
   <url>
@@ -11,11 +35,87 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/computational-social-science/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/creativity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/data-science/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/deep-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/distilbert/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/fmri/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/generalizability/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/huggingface/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/meta-analysis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/ml-engineering/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/neuroimaging/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/nlp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/open-source/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/problem-solving/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/</loc>
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/social-cognition/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/tensorflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/transformers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/twitter/</loc>
   </url>
   
 </urlset>

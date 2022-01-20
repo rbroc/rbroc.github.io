@@ -84,6 +84,7 @@ a:hover {
 
 .item {
     padding: 10px 0;
+    text-align: left;
 }
 
 .item-tag {
