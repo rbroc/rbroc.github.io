@@ -59,10 +59,6 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/tags/generalizability/</loc>
-  </url>
-  
-  <url>
     <loc>https://rbroc.github.io/tags/huggingface/</loc>
   </url>
   
@@ -92,6 +88,10 @@
   
   <url>
     <loc>https://rbroc.github.io/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/research-methods/</loc>
   </url>
   
   <url>

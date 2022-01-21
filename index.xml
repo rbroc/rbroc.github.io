@@ -54,7 +54,7 @@
       <guid>https://rbroc.github.io/about/</guid>
       <description>I am a postdoctoral researcher at Psychoinformatics Lab, University of Texas at Austin.
 My work focuses on developing research methods and open-source software for neuroscience and psychology, and especially on making ML tools and practices more available to these research communities.
-I am part of the team that develops Neuroscout, an open-source platform for end-to-end analysis of neuroimaging data, where I focus on workflow validation and on implementing deep learning pipelines for the feature extraction library pliers.</description>
+I am part of the lab that develops Neuroscout, an open-source platform for end-to-end analysis of neuroimaging data, where I focus on workflow validation and on implementing deep learning pipelines for the feature extraction library pliers.</description>
     </item>
     
   </channel>
