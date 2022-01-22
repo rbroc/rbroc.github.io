@@ -23,15 +23,15 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/projects/project7/</loc>
-  </url>
-  
-  <url>
     <loc>https://rbroc.github.io/projects/project6/</loc>
   </url>
   
   <url>
     <loc>https://rbroc.github.io/projects/project8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project7/</loc>
   </url>
   
   <url>
@@ -87,6 +87,14 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/language/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/ml/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/tags/neuroimaging/</loc>
   </url>
   
@@ -115,7 +123,19 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/semantics/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/tags/social-cognition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/spatial-cognition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/spatial-language/</loc>
   </url>
   
   <url>

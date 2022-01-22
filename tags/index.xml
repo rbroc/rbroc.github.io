@@ -110,6 +110,24 @@
     </item>
     
     <item>
+      <title>language</title>
+      <link>https://rbroc.github.io/tags/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://rbroc.github.io/tags/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>neuroimaging</title>
       <link>https://rbroc.github.io/tags/neuroimaging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,11 +173,38 @@
     </item>
     
     <item>
+      <title>semantics</title>
+      <link>https://rbroc.github.io/tags/semantics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/semantics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>social cognition</title>
       <link>https://rbroc.github.io/tags/social-cognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rbroc.github.io/tags/social-cognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial cognition</title>
+      <link>https://rbroc.github.io/tags/spatial-cognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/spatial-cognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial language</title>
+      <link>https://rbroc.github.io/tags/spatial-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/spatial-language/</guid>
       <description></description>
     </item>
     

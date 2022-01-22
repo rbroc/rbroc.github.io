@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ML</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #A52A2A;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://rbroc.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.69.2" />
+        
+            <link href="/tags/ml/index.xml" rel="alternate" type="application/rss&#43;xml" title="Roberta Rocca" />
+            <link href="/tags/ml/index.xml" rel="feed" type="application/rss&#43;xml" title="Roberta Rocca" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">ML</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/projects/">Projects</a></li>
+                            
+                                <li><a href="/cv/cv.pdf">CV</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:rbrrcc@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/rbroc"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/RockBerta/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/roberta-rocca-8299a2123/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <h2>ML</h2>
+
+     <div class="item">
+
+    
+    
+        
+        
+            
+        
+    
+    
+
+      
+    <h4><a href="https://github.com/rbroc/neuroscout-paper/">Neuroscout: a platform for large-scale naturalistic fMRI research</a></h4>
+    <h5>At Psychoinformatics Lab, I am contributing to the development of <a href="https://neuroscout.org">Neuroscout</a>, an end-to-end platform for the analysis fMRI data collected using naturalistic stimuli (movies, narratives, etc.).<br>
+I am focusing on expanding Neuroscout&rsquo;s annotation set by implementing feature extraction pipelines that use publicly available deep learning models (e.g., from HuggingFace&rsquo;s transformers and TensorflowHub) in <a href="https://github.com/PsychoinformaticsLab/pliers">pliers</a>.<br>
+I am also contributing to validating the platform and its affordances for large-scale neuroimaging research through a series of meta-analytic replications of known neuroimaging findings (preprint forthcoming, code <a href="https://github.com/neuroscout/neuroscout-paper">here</a>), and QA testing its workflows and other components.<br>
+For this project, I am working in close connection with Alejandro de la Vega, Research Scientist at UT Austin and PI for the NIH-funded Neuroscout project.</h5>
+    
+<a href="https://rbroc.github.io/tags/open-source"><kbd class="item-tag">open-source</kbd></a>
+
+<a href="https://rbroc.github.io/tags/fmri"><kbd class="item-tag">fMRI</kbd></a>
+
+<a href="https://rbroc.github.io/tags/neuroimaging"><kbd class="item-tag">neuroimaging</kbd></a>
+
+<a href="https://rbroc.github.io/tags/research-methods"><kbd class="item-tag">research methods</kbd></a>
+
+<a href="https://rbroc.github.io/tags/ml"><kbd class="item-tag">ML</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+        
+        
+            
+        
+    
+    
+
+      
+    <h4><a href="https://github.com/rbroc/personality_reddit/">Developing transformer-based context-aware encoders</a></h4>
+    <h5>Transformers that simultaneously produce token- and sequence-level text representations as well as separable representations of the overarching context (author, social media thread) in which the input text is produced</h5>
+    
+<a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
+
+<a href="https://rbroc.github.io/tags/transformers"><kbd class="item-tag">transformers</kbd></a>
+
+<a href="https://rbroc.github.io/tags/distilbert"><kbd class="item-tag">DistilBERT</kbd></a>
+
+<a href="https://rbroc.github.io/tags/tensorflow"><kbd class="item-tag">TensorFlow</kbd></a>
+
+<a href="https://rbroc.github.io/tags/huggingface"><kbd class="item-tag">huggingface</kbd></a>
+
+<a href="https://rbroc.github.io/tags/ml"><kbd class="item-tag">ML</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+      
+    <h4><a href="/projects/project3/">Mapping political attitudes in the European Union using NLP</a></h4>
+    <h5>I am currently part of an <a href="https://interactingminds.au.dk/news/enkelt/artikel/the-transformation-of-a-european-sense-of-solidarity-visceral-politics-and-social-belonging-in-a">interdisciplinary consortium</a> working on investigating what drives people&rsquo;s support and feeling of belonging in the European Union. As a part-time postdoc at the <a href="https://interactingminds.au.dk/">Interacting Minds Centre</a> at Aarhus University, I am in charge of mapping drivers of social and political identity across EU countries in a data-driven fashion.<br>
+Using the Twitter API (v2), I have created a large multilingual Twitter dataset (EN/DE/IT/DA/PL) containing tweets about the European Union, and I am experimenting with transformers-powered sentiment analysis and topic modeling to understand how and why support to the EU has evolved the last decade.<br>
+This project is giving me the opportunity to gain familiarity with existing tools for multilingual text analysis, and to develop awareness of the need for more and better tools for low-resource languages.</h5>
+    
+<a href="https://rbroc.github.io/tags/applied-nlp"><kbd class="item-tag">applied NLP</kbd></a>
+
+<a href="https://rbroc.github.io/tags/twitter"><kbd class="item-tag">Twitter</kbd></a>
+
+<a href="https://rbroc.github.io/tags/computational-social-science"><kbd class="item-tag">computational social science</kbd></a>
+
+<a href="https://rbroc.github.io/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://rbroc.github.io/tags/ml"><kbd class="item-tag">ML</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+        
+        
+            
+        
+    
+    
+
+      
+    <h4><a href="https://github.com/rbroc/benchmarks_paper/">Introducing benchmarks for the evaluation of psychological models</a></h4>
+    <h5>Quantitative research in psychology and neighboring field emphasizes explanation and in-sample effect sizes over demonstrating models&rsquo; ability to predict on unseen data (generalization).<br>
+In a methods paper that interleaves theoretical arguments with empirical demonstrations (code available in <a href="https://github.com/rbroc/benchmarks_paper">this repo</a>), we show how psychology would benefit from adopting benchmarking as a consensus paradigm for model evaluation.<br>
+We discuss how psychology can learn from both the strengths and the known weaknesses (e.g., biases, overfitting) of benchmarking in ML, discuss first steps for introducing these new practices in the field, and outline their potential to increase the practical utility of the outputs of psychological research.<br>
+This article has been published in <em>Advances in Methods and Practices in Psychological Sciences</em>, and it available at: <a href="https://journals.sagepub.com/doi/full/10.1177/25152459211026864">https://journals.sagepub.com/doi/full/10.1177/25152459211026864</a></h5>
+    
+<a href="https://rbroc.github.io/tags/research-methods"><kbd class="item-tag">research methods</kbd></a>
+
+<a href="https://rbroc.github.io/tags/benchmarking"><kbd class="item-tag">benchmarking</kbd></a>
+
+<a href="https://rbroc.github.io/tags/evaluation"><kbd class="item-tag">evaluation</kbd></a>
+
+<a href="https://rbroc.github.io/tags/ml"><kbd class="item-tag">ML</kbd></a>
+
+
+
+</div>
+ 
+
+</main>
+
+
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
