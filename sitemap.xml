@@ -19,6 +19,22 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/projects/project5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project7/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project6/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/projects/project8/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/about/</loc>
   </url>
   
@@ -28,6 +44,10 @@
   
   <url>
     <loc>https://rbroc.github.io/tags/applied-nlp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/benchmarking/</loc>
   </url>
   
   <url>
@@ -51,7 +71,15 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/demonstratives/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/tags/distilbert/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/evaluation/</loc>
   </url>
   
   <url>
