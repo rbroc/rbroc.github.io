@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>Neuroscout: a platform for large-scale naturalistic fMRI research</title>
-      <link>https://rbroc.github.io/projects/project1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/projects/project1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Text transformer for context-aware encoding</title>
       <link>https://rbroc.github.io/projects/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,20 +20,11 @@
     </item>
     
     <item>
-      <title>Mapping cognitive representations of political identity using NLP</title>
+      <title>Understanding cognitive dimensions of political identity using NLP</title>
       <link>https://rbroc.github.io/projects/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rbroc.github.io/projects/project3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducing benchmarks for the evaluation of psychological models</title>
-      <link>https://rbroc.github.io/projects/project6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/projects/project6/</guid>
       <description></description>
     </item>
     

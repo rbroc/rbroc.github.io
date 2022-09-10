@@ -55,10 +55,6 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/tags/benchmarking/</loc>
-  </url>
-  
-  <url>
     <loc>https://rbroc.github.io/categories/</loc>
   </url>
   
@@ -91,10 +87,6 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/tags/fmri/</loc>
-  </url>
-  
-  <url>
     <loc>https://rbroc.github.io/tags/huggingface/</loc>
   </url>
   
@@ -104,6 +96,10 @@
   
   <url>
     <loc>https://rbroc.github.io/tags/language/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/machine-learning/</loc>
   </url>
   
   <url>
@@ -127,10 +123,6 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/tags/problem-solving/</loc>
-  </url>
-  
-  <url>
     <loc>https://rbroc.github.io/projects/</loc>
   </url>
   
@@ -144,10 +136,6 @@
   
   <url>
     <loc>https://rbroc.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rbroc.github.io/tags/semantics/</loc>
   </url>
   
   <url>

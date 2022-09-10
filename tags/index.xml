@@ -29,15 +29,6 @@
     </item>
     
     <item>
-      <title>benchmarking</title>
-      <link>https://rbroc.github.io/tags/benchmarking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/tags/benchmarking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>clinical diagnostics</title>
       <link>https://rbroc.github.io/tags/clinical-diagnostics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -101,15 +92,6 @@
     </item>
     
     <item>
-      <title>fMRI</title>
-      <link>https://rbroc.github.io/tags/fmri/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/tags/fmri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>huggingface</title>
       <link>https://rbroc.github.io/tags/huggingface/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -133,6 +115,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rbroc.github.io/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://rbroc.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -182,15 +173,6 @@
     </item>
     
     <item>
-      <title>problem solving</title>
-      <link>https://rbroc.github.io/tags/problem-solving/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/tags/problem-solving/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>psychiatry</title>
       <link>https://rbroc.github.io/tags/psychiatry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -205,15 +187,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rbroc.github.io/tags/research-methods/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>semantics</title>
-      <link>https://rbroc.github.io/tags/semantics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/tags/semantics/</guid>
       <description></description>
     </item>
     
