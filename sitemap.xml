@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rbroc.github.io/projects/project/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/projects/project1/</loc>
   </url>
   
@@ -19,11 +23,11 @@
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/projects/project5/</loc>
+    <loc>https://rbroc.github.io/projects/project6/</loc>
   </url>
   
   <url>
-    <loc>https://rbroc.github.io/projects/project6/</loc>
+    <loc>https://rbroc.github.io/projects/project5/</loc>
   </url>
   
   <url>
@@ -56,6 +60,10 @@
   
   <url>
     <loc>https://rbroc.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rbroc.github.io/tags/clinical-diagnostics/</loc>
   </url>
   
   <url>
@@ -127,6 +135,10 @@
   </url>
   
   <url>
+    <loc>https://rbroc.github.io/tags/psychiatry/</loc>
+  </url>
+  
+  <url>
     <loc>https://rbroc.github.io/tags/research-methods/</loc>
   </url>
   
@@ -160,10 +172,6 @@
   
   <url>
     <loc>https://rbroc.github.io/tags/transformers/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rbroc.github.io/tags/twitter/</loc>
   </url>
   
 </urlset>

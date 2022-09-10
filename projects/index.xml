@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>A multi-modal, multi-diagnostic approach to language-based inference of mental disorders</title>
+      <link>https://rbroc.github.io/projects/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/projects/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Neuroscout: a platform for large-scale naturalistic fMRI research</title>
       <link>https://rbroc.github.io/projects/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,7 +29,7 @@
     </item>
     
     <item>
-      <title>Bidirectional transformers for context-aware text encoding</title>
+      <title>Text transformer for context-aware encoding</title>
       <link>https://rbroc.github.io/projects/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -29,7 +38,7 @@
     </item>
     
     <item>
-      <title>Mapping political attitudes in the European Union using NLP</title>
+      <title>Mapping cognitive representations of political identity using NLP</title>
       <link>https://rbroc.github.io/projects/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -47,20 +56,20 @@
     </item>
     
     <item>
-      <title>Complex systems modeling for humanitarian action: methods and opportunities</title>
-      <link>https://rbroc.github.io/projects/project5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rbroc.github.io/projects/project5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Introducing benchmarks for the evaluation of psychological models</title>
       <link>https://rbroc.github.io/projects/project6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rbroc.github.io/projects/project6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex systems modeling for humanitarian action: methods and opportunities</title>
+      <link>https://rbroc.github.io/projects/project5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rbroc.github.io/projects/project5/</guid>
       <description></description>
     </item>
     

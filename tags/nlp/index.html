@@ -135,6 +135,27 @@
 
     
     
+    
+
+      
+    <h4><a href="/projects/project/">A multi-modal, multi-diagnostic approach to language-based inference of mental disorders</a></h4>
+    <h5>Together with Lasse Hansen and Riccardo Fusaroli from Aarhus University, I are working on developing and assessing  text-, audio-, and text-plus-audio models for language-based diagnostics of psychiatric disorders in a multimodal and multiclass settings.<br>
+We have engineered a number of baseline models (using XGBoost on text and audio features) as well as transformers-based architectures predicting clinical diagnoses, and tested their performance on clinical interviews from Danish patients with ASD, schizophrenia and major depressive disorders as well as matched controls. In our forthcoming manuscript, we show how performance in multiclass settings decreases significantly compared to binary (diagnosis vs. control) prediction settings widely reported in the literature, calling for more in-depth focus on improving the specificity and, thereby, the real-world clinical utility of language- and voice-based diagnostic approaches.<br>
+We also show how text-plus-audio ensemble models display significantly better performance, and discuss future directions for this line of research</h5>
+    
+<a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
+
+<a href="https://rbroc.github.io/tags/psychiatry"><kbd class="item-tag">psychiatry</kbd></a>
+
+<a href="https://rbroc.github.io/tags/clinical-diagnostics"><kbd class="item-tag">clinical diagnostics</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
         
         
             
@@ -143,13 +164,10 @@
     
 
       
-    <h4><a href="https://github.com/rbroc/ctx_transformers/">Bidirectional transformers for context-aware text encoding</a></h4>
-    <h5><p>My first engineering project (and the project I am currently most excited about!) focuses on training transformer encoders whose representations incorporate information about higher-order context, i.e., characteristics of the author and/or the pragmatic context. We feed models a target sequence and a number of &lsquo;context&rsquo; sequences (i.e., text from the same author, or from the same subreddit) as a single example, and train models on a variant of MLM where the MLM head is fed the combination ( sum, concatenation, or attention) of token-level representations from the target sequence and an aggregate representation of the contexts.</p>
+    <h4><a href="https://github.com/rbroc/ctx_transformers/">Text transformer for context-aware encoding</a></h4>
+    <h5><p>This project focuses on training transformer encoders whose representations incorporate information about higher-order context, i.e., characteristics of the author and/or the pragmatic context. We feed models a target sequence and a number of &lsquo;context&rsquo; sequences (i.e., text from the same author, or from the same subreddit) as a single example, and train models on a variant of MLM where the MLM head is fed the combination ( sum, concatenation, or attention) of token-level representations from the target sequence and an aggregate representation of the contexts.</p>
 <p>We experiment with three DistilBERT-inspired architectures: a bi-encoder (where context and target are fed to two separate encoders), a &lsquo;batch&rsquo; encoder (single encoder with added context aggregation and target-context combination layers) and a hierarchical encoder (applying attention across [CLS] tokens in between standard transformer layers to integrate information across contexts and target sequence). The benefits of this training protocol are evaluated both by comparing their MLM performance with no-context MLM training and to random-context training, as well as on a triplet-loss author/subreddit discrimination task. We also experiment with selective masking of attention heads based on the type of context provided to simultaneously produce separable context representations.</p>
-<p>The importance of this project is two-fold. First, this way of tuning models to produce context-aware representations may provide intrinsic advantages in NLP tasks (e.g., for MLM, knowledge of the author may make it easier to accurately reconstruct missing words), without substantial increase in model complexity. Secondly, text-based representations of text authors could be used to predict individual traits, following the intuition that linguistic behavior is systematically influenced by personality, experiences, etc.</p>
 <p>This project is still in progress, and it has so far been a great source of learning and of motivation to keep working with deep learning and NLP. I had to build a large-scale Reddit dataset from scratch, a &lsquo;big data&rsquo; experience that gained me proficiency in SQL, and I have become increasingly proficient in Tensorflow for both model engineering, distributed training, and efficient data pipelines. Being a self-taught ML engineer, I have made all possible rookie mistakes in the process and have greatly benefitted from each of them.</p>
-<p>The project started as a collaboration with Tal Yarkoni, but I have been responsible for implementation throughout and for its evolution in the last months.
-Code is publicly available <a href="https://github.com/rbroc/ctx_transformers">in this repository</a>. Planning on making everything nice and tidy once write-up is close, and to share the dataset for public use.</p>
 </h5>
     
 <a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
