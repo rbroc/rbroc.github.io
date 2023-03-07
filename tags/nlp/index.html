@@ -105,7 +105,7 @@
                             
                                 <li><a href="/projects/">Projects</a></li>
                             
-                                <li><a href="/cv/cv.pdf">CV</a></li>
+                                <li><a href="/cv/cv.pdf">Résumé</a></li>
                             
                         </ul>
                     
@@ -135,6 +135,31 @@
 
     
     
+    
+
+      
+    <h4><a href="/projects/project/">A multi-modal, multi-diagnostic approach to language-based inference of mental disorders</a></h4>
+    <h5>Together with Lasse Hansen and Riccardo Fusaroli from Aarhus University, I am working on developing text-, audio-, and combined text-and-audio models for language-based inference of psychiatric disorders in a multimodal and multiclass settings.<br>
+We have engineered a number of baseline models (using XGBoost on text and audio features) as well as transformers-based architectures, and trained them to predict clinical diagnoses for a cohort of individuals diagnosed with ASD, schizophrenia or major depressive disorders and matched controls. In our forthcoming manuscript, we show that  performance in multiclass settings decreases significantly compared to binary (diagnosis vs. control) prediction problems, highlighting the need for more research (and larger datasets!) aimed at improving the specificity and the real-world clinical utility of language- and voice-based diagnostic approaches.<br>
+We also show that ensemble approaches (text + audio) can improve specificity in multiclass settings, efficiently leveraging information from multiple modalities at a low computational cost.</h5>
+    
+<a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
+
+<a href="https://rbroc.github.io/tags/psychiatry"><kbd class="item-tag">psychiatry</kbd></a>
+
+<a href="https://rbroc.github.io/tags/clinical-diagnostics"><kbd class="item-tag">clinical diagnostics</kbd></a>
+
+<a href="https://rbroc.github.io/tags/machine-learning"><kbd class="item-tag">machine learning</kbd></a>
+
+<a href="https://rbroc.github.io/tags/language"><kbd class="item-tag">language</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
         
         
             
@@ -143,13 +168,10 @@
     
 
       
-    <h4><a href="https://github.com/rbroc/ctx_transformers/">Bidirectional transformers for context-aware text encoding</a></h4>
-    <h5><p>My first engineering project (and the project I am currently most excited about!) focuses on training transformer encoders whose representations incorporate information about higher-order context, i.e., characteristics of the author and/or the pragmatic context. We feed models a target sequence and a number of &lsquo;context&rsquo; sequences (i.e., text from the same author, or from the same subreddit) as a single example, and train models on a variant of MLM where the MLM head is fed the combination ( sum, concatenation, or attention) of token-level representations from the target sequence and an aggregate representation of the contexts.</p>
-<p>We experiment with three DistilBERT-inspired architectures: a bi-encoder (where context and target are fed to two separate encoders), a &lsquo;batch&rsquo; encoder (single encoder with added context aggregation and target-context combination layers) and a hierarchical encoder (applying attention across [CLS] tokens in between standard transformer layers to integrate information across contexts and target sequence). The benefits of this training protocol are evaluated both by comparing their MLM performance with no-context MLM training and to random-context training, as well as on a triplet-loss author/subreddit discrimination task. We also experiment with selective masking of attention heads based on the type of context provided to simultaneously produce separable context representations.</p>
-<p>The importance of this project is two-fold. First, this way of tuning models to produce context-aware representations may provide intrinsic advantages in NLP tasks (e.g., for MLM, knowledge of the author may make it easier to accurately reconstruct missing words), without substantial increase in model complexity. Secondly, text-based representations of text authors could be used to predict individual traits, following the intuition that linguistic behavior is systematically influenced by personality, experiences, etc.</p>
-<p>This project is still in progress, and it has so far been a great source of learning and of motivation to keep working with deep learning and NLP. I had to build a large-scale Reddit dataset from scratch, a &lsquo;big data&rsquo; experience that gained me proficiency in SQL, and I have become increasingly proficient in Tensorflow for both model engineering, distributed training, and efficient data pipelines. Being a self-taught ML engineer, I have made all possible rookie mistakes in the process and have greatly benefitted from each of them.</p>
-<p>The project started as a collaboration with Tal Yarkoni, but I have been responsible for implementation throughout and for its evolution in the last months.
-Code is publicly available <a href="https://github.com/rbroc/ctx_transformers">in this repository</a>. Planning on making everything nice and tidy once write-up is close, and to share the dataset for public use.</p>
+    <h4><a href="https://github.com/rbroc/ctx_transformers/">Text transformer for context-aware encoding</a></h4>
+    <h5><p>This project focuses on training transformer encoders whose representations incorporate information about higher-order context, i.e., characteristics of the author and/or the pragmatic context. We feed models a target sequence and a number of &lsquo;context&rsquo; sequences (i.e., text from the same author, or from the same subreddit) as a single example, and train models on a variant of MLM where the MLM head is fed the combination of token-level representations of the input sequence and an aggregate representation of context sequences.</p>
+<p>We experiment with three DistilBERT-inspired architectures: a bi-encoder (where context and target are fed to two separate encoders), a &lsquo;batch&rsquo; encoder (single encoder with added context aggregation and target-context combination layers) and a hierarchical encoder (applying attention across [CLS] tokens in between standard transformer layers to integrate information across contexts and target sequence). The benefits of this training protocol are evaluated both by comparing their MLM performance with no-context MLM training and to random-context training, as well as on extrinsic tasks.</p>
+<p>This project is still in progress.</p>
 </h5>
     
 <a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
@@ -163,6 +185,33 @@ Code is publicly available <a href="https://github.com/rbroc/ctx_transformers">i
 <a href="https://rbroc.github.io/tags/huggingface"><kbd class="item-tag">huggingface</kbd></a>
 
 <a href="https://rbroc.github.io/tags/ml"><kbd class="item-tag">ML</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+        
+        
+            
+        
+    
+    
+
+      
+    <h4><a href="https://github.com/rbroc/diversity_abm/">Cognitive diversity promotes collective creativity: an agent-based simulation</a></h4>
+    <h5>In this project (a collaboration with Kristian Tylén from Aarhus University), we use agent-based simulations to investigate: a) whether and how performing a divergent thinking task with others makes us come up with better and more creative solutions; b) how this is modulated by cognitive diversity within the group.<br>
+We have published a paper on the 2022 CogSci proceedings, which is available here: <a href="https://escholarship.org/uc/item/58v5d82w">https://escholarship.org/uc/item/58v5d82w</a> Code is publicly available <a href="https://github.com/rbroc/diversity_abm">here</a> and follow-ups are in progress.</h5>
+    
+<a href="https://rbroc.github.io/tags/agent-based-modeling"><kbd class="item-tag">agent-based modeling</kbd></a>
+
+<a href="https://rbroc.github.io/tags/social-cognition"><kbd class="item-tag">social cognition</kbd></a>
+
+<a href="https://rbroc.github.io/tags/nlp"><kbd class="item-tag">NLP</kbd></a>
+
+<a href="https://rbroc.github.io/tags/creativity"><kbd class="item-tag">creativity</kbd></a>
 
 
 
